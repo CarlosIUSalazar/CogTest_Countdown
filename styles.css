@@ -1,0 +1,81 @@
+.head {
+  background: #139EE5;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.head h1 {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .head {
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+}
+
+.head small {
+  color: #fff;
+}
+
+.head::before {
+  content: "";
+  background: url(../../Images/hd.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 0;
+}
+
+.header-title {
+  color: #fff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.countdown-container {
+  background-color: white;
+  padding: 10px;
+  padding-top: 1px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  font-size: 3rem;
+  line-height: 1.4;
+}
+
+p {
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: rgb(72, 72, 72);
+}
